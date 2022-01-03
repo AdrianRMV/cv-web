@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Ramirez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/experiences.css" />
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="./img/yo 2.jpg" alt="programador" />
+                <div>
+                    Adrian Ramirez <br />
+                    [developer]
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="./img/hamburger.svg" alt="abrir menu">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="./img/close.svg" alt="cerrar menu">
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experiences">Experencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <!-- <li><a href="#contact">Contacto</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br /> Adrian Ramirez</h1>
+                <p class="profile-details">
+                    Soy un apasionado por el desarrollo de sofware, con un
+                    gran hambre de continuar aprendiendo y obtener mas experienca en tecnologías y lenguajes de
+                    programación
+                </p>
+                <button class="profile-btn"><a class ="cv"href = "/docs/CV_AdrianRamirez.docx" download = "CV_AdrianRamirezVazquez.docx">Descarga cv</button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="./img/yo png.png" alt="programador" />
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experiences">
+        <img src="img/ola.svg" alt="division" class="wave" />
+        <div class="experiences-body">
+
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Agency</div>
+                    <div class="experience-position">Senior Software Engineer</div>
+                    <div class="experience-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto aliquam dolor
+                        porro, assumenda in nostrum rerum laudantium magnam quis sunt dicta unde itaque perspiciatis
+                        debitis incidunt quod est modi dignissimos atque quas.
+                    </div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2018-2020</div>
+                    <div class="experience-company">Agency</div>
+                    <div class="experience-position">Senior Software Engineer</div>
+                    <div class="experience-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto aliquam dolor
+                        porro, assumenda in nostrum rerum laudantium magnam quis sunt dicta unde itaque perspiciatis
+                        debitis incidunt quod est modi dignissimos atque quas.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2016-2018</div>
+                    <div class="experience-company">Agency</div>
+                    <div class="experience-position">Senior Software Engineer</div>
+                    <div class="experience-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto aliquam
+                        dolor porro, assumenda in nostrum rerum laudantium magnam quis sunt dicta unde itaque
+                        perspiciatis debitis incidunt quod est modi dignissimos atque quas.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <img src="img/ola.svg" alt="division" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">SASS</li>
+                <li class="skills-skill">LESS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">C++</li>
+                <li class="skills-skill">JavaScript</li>
+                <!-- <li class="skills-skill">Python</li> -->
+                <li class="skills-skill">MySQL</li>
+                <li class="skills-skill">Node.js</li>
+                <li class="skills-skill">Git</li>
+                <li class="skills-skill">Photoshop</li>
+            </ul>
+        </section>
+    </div>
+    <!-- <section class="contact vertical-padding" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+    </section> -->
+</body>
+
+</html>
