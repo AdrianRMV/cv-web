@@ -21,7 +21,7 @@ const observer = new IntersectionObserver((entries) => {
             menuLink.classList.add("selected");
         }
     })
-}, {rootMargin: "-30% 0px -30% 0px"});
+}, {rootMargin: "-35% 0px -35% 0px"});
 
 // Cerrar menu hamburgesa al clickear una opcion
 menuLinks.forEach (menuLink => {
